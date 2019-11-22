@@ -11,3 +11,7 @@ apply f x = f x
 square :: (Num a)=> a -> a
 square x = x * x
 
+data Cat = Persian | Siamese | Munchkin
+data Dog = Labrador | Pug | Chiuahua
+
+type Pet = Either Cat Dog = : Left Cat | Right Cat 
